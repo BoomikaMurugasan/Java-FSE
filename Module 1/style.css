@@ -1,0 +1,76 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #004080;
+    padding: 10px;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  /* Welcome Banner */
+  #welcomeBanner {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  /* Highlights */
+  .highlight {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Images */
+  img {
+    width: 100px;
+    height: auto;
+    border: 2px solid #ccc;
+    margin: 5px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 10px;
+  }
+  
+  /* Forms */
+  form {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  input, select, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  

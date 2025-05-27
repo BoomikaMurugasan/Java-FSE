@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Community Events</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="event.html">Events</a>
+    <a href="contact.html">Contact</a>
+    <a href="help.html">Help</a>
+  </nav>
+
+  <main>
+    <h2>Upcoming Events</h2>
+    <table>
+      <caption>Past Events</caption>
+      <tr>
+        <td><img src="event1.jpg" alt="Event 1"><figcaption>Spring Festival</figcaption></td>
+        <td><img src="event2.jpg" alt="Event 2"><figcaption>Music Night</figcaption></td>
+        <td><img src="event3.jpg" alt="Event 3"><figcaption>Food Fair</figcaption></td>
+      </tr>
+      <tr>
+        <td><img src="event4.jpg" alt="Event 4"><figcaption>Book Swap</figcaption></td>
+        <td><img src="event5.jpg" alt="Event 5"><figcaption>Craft Bazaar</figcaption></td>
+        <td><img src="event6.jpg" alt="Event 6"><figcaption>Charity Walk</figcaption></td>
+      </tr>
+    </table>
+
+    <section>
+      <h3>Register for an Event</h3>
+      <form id="registerForm">
+        <input type="text" name="name" placeholder="Your Name" required autofocus>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="date" name="date" required>
+        <select name="eventType" required>
+          <option value="">Select Event</option>
+          <option value="music">Music</option>
+          <option value="food">Food</option>
+          <option value="sports">Sports</option>
+        </select>
+        <textarea name="message" placeholder="Any message"></textarea>
+        <button type="submit">Register</button>
+      </form>
+      <output id="confirmation"></output>
+    </section>
+  </main>
+
+  <footer>&copy; 2025 Local Event Council</footer>
+</body>
+</html>
